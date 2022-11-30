@@ -1,6 +1,7 @@
 # Write a program to do take input and populate two lists.
 # Each list is a 2-D matrix, so you have to consider as list of list.
 # Your program should print the result of elements wise addition of the two list.
+# If the to list does not match in dimension, print ADDITION NOT POSSIBLE
 
 if __name__ == "__main__":
 
