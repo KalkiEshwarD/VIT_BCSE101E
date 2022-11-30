@@ -5,6 +5,12 @@ x = int(input())
 n = int(input())
 
 def factorial(num):
+    """
+    INPUT:      number [integer]
+    OUTPUT:     factorial of the number [integer]
+    
+    DESCRIPTION: Takes in the input in the form of an integer and then outputs the number using iterative approach
+    """
     sum = 1
     for i in range(1, num + 1):
         sum *= i
