@@ -21,11 +21,9 @@ def list_unpacker(list0):
 
 
 def main():
-    # input_stuff = input()
-    result1 = list_unpacker([[1, 2], 'a', 'Hello'])
-    result2 = list_unpacker([1, 2, 3])
-    print(result1)
-    print(result2)
+    input_stuff = eval(input())
+    result = list_unpacker(input_stuff)
+    print(result)
 
 
 if __name__ == "__main__":
