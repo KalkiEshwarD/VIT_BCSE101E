@@ -13,24 +13,33 @@ password_checker(string0)
 
 ------------------------------------------------------
 
-EX1
+EX03
 
 FUNCTIONS
--nil-
+list_object_type_index_finder(list0)
+list_preparer(list0, string_positions0, integer_positions0)
+strings_list_object_converter(list0, string_positions0)
+conjugator_and_negator(list0, complex_position, integer_position)
+string_and_complex_reverser(list0, string_position0, complex_position0)
 
 ------------------------------------------------------
 
-EX1
+EX04
 
 FUNCTIONS
--nil-
+network_admin_func(list0)
+data_collector()
 
 ------------------------------------------------------
 
-EX1
+EX05
 
 FUNCTIONS
--nil-
+num_breakdown_func(number0)
+destiny_number_finder(string0)
+soul_urge_number_finder(string0)
+dream_number_finder(string0)
+corr_num_finder(char0)
 
 ------------------------------------------------------
 
