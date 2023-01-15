@@ -46,8 +46,9 @@ def password_checker(string0):
             if char in SPECIAL_CHAR:
                 special_char_test += 1
 
-        if lower_case_char_test > 0 and upper_case_char_test > 0 and nums_char_test > 0 and special_char_test > 0 and ' ' not in password:
-            acceptable_passwords_list.append(password)
+        if lower_case_char_test > 0 and upper_case_char_test > 0 and nums_char_test > 0 and special_char_test > 0:
+            if 6 <= len(password) <= 12:
+                acceptable_passwords_list.append(password)
 
     if len(acceptable_passwords_list) == 0:
         return 'invalid'
@@ -63,4 +64,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
